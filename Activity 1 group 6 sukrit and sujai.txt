@@ -1,0 +1,54 @@
+Apple
+
+#step2 - what appear at the top logo, search bar, cart and menu bar
+
+-   menu/navigation items list of apple product
+
+-   main content
+
+    -   apple new release product like iPhone 17 or Macbook pro
+
+-   footer content
+
+-   apple contact, and other section of apple like apple tv, account and
+    about apple.
+
+#step3 - header - apple logo , title (apple(australia)) , description ,
+URL, local, image, site name - navigation - store , macipad,iphone,watch
+,vision,airpod,tv&Home,Entertainment, Accessories, and Support. On
+compact/mobile viewports, collap inot a menu - main content - full-width
+rotating banners for iPhone and other content - promotion section -
+apple tv + gallery
+
+-   footer
+-   link for apple business, Shop and Learn, Apple Wallet, Account,
+    Entertainment, Apple Store etc..
+
+#step4 - <header> — Apple logo (SVG), search <form>, shopping bag
+button.
+
+-   <nav> — Horizontal <ul> with flyout dropdowns for Store, Mac, iPad,
+    iPhone, Watch, Vision, AirPods, TV & Home, Entertainment,
+    Accessories, Support.
+
+-   <main>
+
+-   <section> Hero — three panels each with <h2>, <p> subhead, and two
+    CTA <a> buttons, plus <figure><img>.
+
+-   <section> Promos — six <article> tiles each with <h3>, <p>, CTA
+    links, and <figure><img>.
+
+-   <section> Apple TV+ — carousel of content cards with <h3>,
+    <figure><img>, <h4> title, <p> description, and watch <a>.
+
+-   <footer>
+
+-   <section> Footnotes — disclaimer
+
+-   <nav> Directory — five-column link groups (Shop, Account,
+    Entertainment, Apple Store, About).
+
+-   Contact bar — store locator, phone
+
+-   Legal links — Privacy Policy, Terms of Use, Copyright, Site Map.
