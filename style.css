@@ -1,0 +1,183 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a0a32;
+    color: white;
+    text-align: right;
+    padding: 1px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 0;
+    padding-right: 20px;
+}
+nav ul li {
+    display: inline;
+    color: rgb(250, 251, 255);
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a.nav-button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #0a0a32;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    font-size: 12px;
+}
+
+nav a.nav-button:hover,
+nav a.nav-button:focus {
+    background-color: #ffffff;
+    color: #0a0a32;
+    transform: translateY(-1px);
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+section {
+    background-color: #f4f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    padding-top:0%;
+    padding-bottom:0%;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 4px solid #ffffff;
+    margin:20px auto;
+    border-radius: 20px;
+
+}
+
+footer {
+    background-color: #0a0a32;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#overview {
+    text-align: center;
+}
+
+/* Center wrapper on the page */
+.gallery-container {
+  width: 50%;
+  max-width: 200px;
+  margin: 50px auto;
+  overflow: hidden; /* Hides images outside the boundary */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Horizontal track holding all cards */
+.image-track {
+  display: flex;
+  align-items: left;
+  gap:60px;
+  width: max-content;
+  padding: 60px 0;
+  padding-left: 670px;
+  padding-right: 0px;
+  /* Smooth transform transition */
+  transition: transform 0.2s cubic-bezier(0.25, 1, 0.5, 1); 
+  /* Initial offset to center the first or middle image */
+  transform: translateX(0px); 
+}
+
+/* Base style for all image cards */
+.image-card {
+  background: #fdfdfd;
+  border: 2px solid #333;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #333;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  transform-origin: center;
+}
+
+/* Image styling to fit within card */
+.image-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Match the varied heights from your mock-up drawing */
+.img1 { width: 100px; height: 220px; font-size: 1.2rem; }
+.img1 img { width: 100%; height: 100%; }
+.img2, .img3 { width: 100px; height: 220px; }
+.img2 img, .img3 img { width: 100%; height: 100%; }
+.img5, .img4 { width: 100px; height: 220px; }
+.img5 img, .img4 img { width: 100%; height: 100%; }
+
+/* Visual styling for the custom control bar container */
+.scrollbar-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+/* The custom track */
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 24px;
+  background: #ffffff;
+  border: 2px solid #ebeaea;
+  border-radius: 12px;
+  outline: none;
+  padding: 0 4px;
+}
+
+/* The circular dragging handle (the thumb) */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid #d1d1d1;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid #939393;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY DESIGN</title>
+
+    <!-- external css style sheet reference-->
+     <link rel="stylesheet" href="style.css">
+     <!-- Linking an external file named "script.js" -->
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+    <nav>
+        <ul>
+            <li><a class="nav-button">page1</a></li>
+            <li><a class="nav-button">page2</a></li>
+            <li><a class="nav-button">page3</a></li>
+            <li><a class="nav-button">page4</a></li>
+            <li><a class="nav-button">page5</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Design</h2>
+            <p>Design  is the purposeful process of planning and creating solution to solve problems or improvehuman experiences.</p><br>
+            <h2>Portfolio</h2>
+            <p>A portfolio is a curated collection of creative work sample, product or service. Depending on the context, it refers to an individual's financial assests, an artist's showcase of project, or a company's complete range of services.</p>
+        </section>
+        <section>
+            <h1 id="overview">Overview</h1>
+        </section>
+        <section>
+            <div class="gallery-container">
+                <!-- The horizontal image track -->
+                <div class="image-track" id="imageTrack">
+                    <div class="image-card img4 active"><img src="images.jpg" alt="space"></div>
+                    <div class="image-card img3"><img src="hh.jpg" alt="space"></div>
+                    <div class="image-card img1"><img src="ad.jpg" alt="space"></div>
+                    <div class="image-card img2"><img src="5.jpg" alt="space"></div>
+                    <div class="image-card img5"><img src="3.jpg" alt="space"></div>
+                </div>
+
+                <!-- The custom slider bar underneath -->
+                <div class="scrollbar-wrapper">
+                    <input type="range" id="customScrollbar" min="0" max="100" value="0">
+                </div>
+            </div>
+        </section>
+        <section>
+            <form action="summit.php" method="post">
+
+            </form>
+        </section>
+    </main>
+
+    <footer> 
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
